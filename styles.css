@@ -331,6 +331,10 @@ p:last-child { margin-bottom: 0; }
   .about .two-col {
     grid-template-columns: 1fr;
   }
+  .photo-col {
+    display: flex;
+    justify-content: center;
+  }
   .headshot {
     width: 140px;
     aspect-ratio: 4/5;
