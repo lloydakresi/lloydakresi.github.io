@@ -46,8 +46,8 @@
         <img src="headshot.jpg" alt="Portrait of Lloyd Akresi" class="headshot">
       </div>
       <div class="text-col">
-        <p class="lede">I'm an electrical and electronic engineering graduate from KNUST in Ghana, currently working as a Technical Services Trainee at TechnipFMC. I'm building toward graduate study in electrical engineering with a machine learning specialization.</p>
-        <p>I'm interested in interpretable and robust machine learning — particularly how model behavior can be made trustworthy for high-stakes decisions rather than treated as a black box. My toxicity classification project addresses this through robustness under severe class imbalance, and I'm drawn to work on embedding fairness and alignment constraints directly into learning objectives. My physics-informed neural network for DC motor state estimation and subsea anomaly detection pipeline extend machine learning into industrial and subsea infrastructure — domains where I'm interested in exploring what interpretability and trust actually require.</p>
+        <p class="lede">I am an electrical and electronic engineering graduate from KNUST in Ghana, currently working as a Technical Services Trainee at TechnipFMC. I'm building toward graduate study in electrical engineering with a machine learning specialization.</p>
+        <p>I'm interested in interpretable and robust machine learning, particularly how model behavior can be made trustworthy for high-stakes decisions rather than treated as a black box. My toxicity classification project addresses this through robustness under severe class imbalance, and I'm drawn to work on embedding fairness and alignment constraints directly into learning objectives. My physics-informed neural network for DC motor state estimation and subsea anomaly detection pipeline extend machine learning into industrial and subsea infrastructure; domains where I'm interested in exploring what interpretability and trust actually require.</p>
       </div>
     </div>
   </section>
@@ -93,9 +93,19 @@
     </div>
   </section>
 
+    <section class="section" id="publications">
+    <div class="wrap">
+      <h2>Publications</h2>
+      <div class="pub">
+        <p>Twumasi, E., Dogbey, F. K., Teye, F., Akresi, L. N., Souto, L., Frimpong, E. A. "Distribution Network Reconfiguration Using a Modified Artificial Rabbit Optimization Algorithm," <em>2025 IEEE PES/IAS PowerAfrica Conference</em>, Cairo, Egypt, 2025.</p>
+        <a href="https://share.google/M59Yxj38LDOzfpp9H" target="_blank" rel="noopener" class="text-link">View paper</a>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="experience">
     <div class="wrap">
-      <h2>Professional experience</h2>
+      <h2>Professional Experience</h2>
 
       <div class="record">
         <div class="record-when"><span class="mono">Nov 2025 – Present</span></div>
@@ -138,15 +148,7 @@
     </div>
   </section>
 
-  <section class="section" id="publications">
-    <div class="wrap">
-      <h2>Publications</h2>
-      <div class="pub">
-        <p>Twumasi, E., Dogbey, F. K., Teye, F., Akresi, L. N., Souto, L., Frimpong, E. A. "Distribution Network Reconfiguration Using a Modified Artificial Rabbit Optimization Algorithm," <em>2025 IEEE PES/IAS PowerAfrica Conference</em>, Cairo, Egypt, 2025.</p>
-        <a href="https://share.google/M59Yxj38LDOzfpp9H" target="_blank" rel="noopener" class="text-link">View paper</a>
-      </div>
-    </div>
-  </section>
+
 
   <section class="section" id="projects">
     <div class="wrap">
@@ -155,7 +157,7 @@
 
         <article class="project">
           <h3>Toxic Comment Moderation API</h3>
-          <p class="stack mono">DistilBERT · FastAPI · Docker · Jigsaw</p>
+          <p class="stack mono">Transformers · FastAPI · Docker </p>
           <p>Multilabel toxicity classifier fine-tuned on the Jigsaw dataset, with class imbalance handled via weighted BCE loss and per-label threshold tuning. Includes a bias analysis across 25 identity groups. Served as a REST API.</p>
           <div class="project-links">
             <a href="https://github.com/lloydakresi/toxic_comment_moderator_api" target="_blank" rel="noopener">GitHub</a>
@@ -179,6 +181,9 @@
           <h3>Fault Detection via Temporal Fusion Transformer</h3>
           <p class="stack mono">TFT · Time-Series · Tennessee Eastman</p>
           <p>Transformer-based explainable fault detection pipeline on the Tennessee Eastman Process dataset, using a Temporal Fusion Transformer for multivariate time-series anomaly classification.</p>
+          <div class="project-links">
+            <a href="https://github.com/lloydakresi/explainable_fault_classification_tep" target="_blank" rel="noopener">GitHub</a>
+          </div>
         </article>
 
         <article class="project">
@@ -192,7 +197,7 @@
 
         <article class="project">
           <h3>Ragify</h3>
-          <p class="stack mono">LangChain · ChromaDB · Gradio · Docker</p>
+          <p class="stack mono">LangChain · ChromaDB · Gradio · Docker · RAGAS</p>
           <p>Document-level RAG system using LangChain and Sentence Transformers for ingestion, ChromaDB retrieval with cross-encoder reranking, and session management with deduplication and TTL/LRU eviction. Served via Gradio and Groq, with Docker deployment.</p>
           <div class="project-links">
             <a href="https://github.com/lloydakresi" target="_blank" rel="noopener">GitHub</a>
@@ -201,7 +206,7 @@
 
         <article class="project">
           <h3>Machine Language Translator</h3>
-          <p class="stack mono">PyTorch · Transformer from scratch</p>
+          <p class="stack mono">PyTorch</p>
           <p>Full Transformer architecture implemented in PyTorch without <code>nn.Module</code>, including multi-head attention, positional encoding, decoder masking, and LayerNorm, for English-to-French translation.</p>
           <div class="project-links">
             <a href="https://github.com/lloydakresi" target="_blank" rel="noopener">GitHub</a>
@@ -226,7 +231,7 @@
         </div>
         <div class="skill-group">
           <p class="spec-label">ML &amp; data</p>
-          <p>ChromaDB, Sentence Transformers, Weights &amp; Biases, Gradio, Streamlit</p>
+          <p>ChromaDB, Sentence Transformers, Gradio, Streamlit</p>
         </div>
         <div class="skill-group">
           <p class="spec-label">Industrial control</p>
